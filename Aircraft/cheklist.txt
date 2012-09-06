@@ -1,0 +1,206 @@
+PREFLIGHT INSPECTION
+
+Parking brake					SET
+All switches					OFF
+Magneto switch					0 (OFF)
+Engine cowling latches				CLOSED
+
+
+
+
+BEFORE STARTING
+
+Magneto switch					0 (OFF)
+Flight controls					FREE OF MOVEMENTS
+Parking brake					SET
+Battery switch					ON
+Fuel gages						CHECK QTY
+Rotating beacon					ON
+Elevator Trim Tabs				NEUTRAL
+Aileron Trim Tabs					NEUTRAL
+Rudder Trim Tabs					NEUTRAL
+Cowl flaps						CHECK DEFL
+ 
+
+
+
+ENGINE START
+
+Propeller control					FORWARD
+Mixture control					BACKWARD
+Carburetor heater					OFF
+Cowl flaps						CLOSED
+Primer pump to cylinders if CHT < 80 :
+	2 - 6 injections MAX in the summer
+	6 - 10 injections MAX in the winter
+Magneto switch					0 (OFF)
+Make sure prop area is				CLEAR
+Starter - keep min 15 sec			ON
+Engine clutched					ON
+Magneto switch					1+2 (BOTH)
+Throttle						700 - 800 RPM
+Check oil pressure				Normal (> 3)
+Generator						ON
+Inverter						ON
+
+
+
+
+ENGINE WARM UP
+
+Throttle 800 RPM until Oil Temp rises
+Throttle 1200 RPM until CHT >100		OK
+Throttle 1400 RPM until CHT >120		OK
+After CHT>120 set throttle back to 1200
+
+
+
+
+BEFORE TAXI
+
+Pax and cargo doors				CLOSED
+Avionics switch					ON
+Inverter						ON
+All necessary switches				ON
+Flaps upper and lower				OPERATIVE
+Engine control lever positions		CORRECT
+Indications of engine gauges			NORMAL
+Fuel quantity					CHECKED
+Navigation instruments				SET
+Navigation Lights					ON
+Transponder						STDBY
+Block time						RECORDED
+
+
+
+
+TAXI
+
+Taxi light						ON
+Pitot heat if required				ON
+All necessary switches				ON
+Brakes						CHECKED
+
+
+
+
+BEFORE TAKE-OFF
+
+Voltage and Load meter				CHECK
+Navigation instruments and Com's		SET
+Carburetor heater					OFF
+Mixture control					BACKWARD
+Altimeters						SET
+Elevator trim UP: 1 sec 
+If heavy for 2-3 sec
+Rudder trim RIGHT for 1 seconds
+Flaps							TAKE-OFF
+Flight controls					FREE
+Artificial horizon				CHECK
+Transponder						ON
+Engine gauges					ALL GREEN
+Cowl flaps						OPEN
+Lights						AS REQ
+Pax seat belts					FASTENED
+Take-off time					RECORDED
+Parking brake					OFF
+
+
+
+
+TAKE-OFF
+
+Taxi light						OFF
+Landing lights					ON
+---- Without flaps ----
+Throttle 2200 RPM Max 10 MP					
+Speed up to						140 Km/h
+---- With flaps ----
+Vr							85-90 Km/h
+V2							120 Km/h
+Flaps up above 150ft				UP
+
+
+
+
+CLIMB
+
+RPM							1800
+Mixture control <90%				SET
+When altitude > 150 Ft				1700 RPM
+Speed							140-150
+Oil T							MAX 90
+CHT							< 215
+Lights						CONSIDERED
+
+
+
+
+CRUISE
+
+Engine parameters:
+RPM							1400-1600
+Manifold pressure					6-8
+CHT							150-215
+Oil T							60-85
+Oil pressure					4-5
+Fuel pressure					0.25-0.35
+Carb heat						AS REQ
+Flaps							UP
+
+
+
+
+DESCENT
+
+Maintain RPM at 180 Km/h			1800
+Maintain CHT at					> 120
+Carburetor heater ON If OAT<-15
+Parking brake					OFF
+Flaps							AS REQ
+
+
+
+
+FINAL:
+
+Throttle MP						< 5
+Propeller						FULL PITCH
+Speed							< 140
+Flaps							15
+Landing lights					ON
+
+
+
+
+CLEAR OF RUNWAY
+
+Landing lights					OFF
+Taxi light						ON
+Pitot heat						OFF
+Flaps							UP
+Transponder						STDBY
+Engine cowling latches				OPEN
+
+
+
+
+COOLING DOWN and SHUT DOWN
+
+Parking brake					SET
+Set throttle to					IDLE
+Engine cowling latches				OPEN
+Taxi light						OFF
+Landing lights					OFF
+Navigation Lights					OFF
+Let CHT cool down < 130				OK
+Avionics switch					OFF
+Inverter						OFF
+Generator						OFF
+For a few seconds 1200 RPM, then 800 RPM
+Mixture control					FORWARD
+Rotating beacon					OFF
+Cowl flaps						CLOSED
+Controls and ailerons				LOCKED
+Battery switch					OFF
+All switches					OFF

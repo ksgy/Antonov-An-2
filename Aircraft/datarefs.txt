@@ -1,0 +1,9 @@
+sim/cockpit/radios/adf1_cardinal_dir  -- nagy
+
+sim/cockpit2/radios/indicators/adf2_relative_bearing_deg -- tarcsa
+
+
+sim/cockpit2/gauges/indicators/heading_electric_deg_mag_pilot
+
+
+dme_dme_time_min -> 

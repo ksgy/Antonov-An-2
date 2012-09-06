@@ -1,0 +1,6 @@
+A
+750 version
+ x   y  
+ 0   0	// offsets of needle center of rotation from instrument center
+0  0	// comment: tick-mark radius and numerical label radius in pixels
+NOTE: ENTER 0 FOR BOTH RADII ABOVE IF YOU DO NOT WANT X-PLANE TO PLOT THE NUMBERS AND ARCS FOR YOU!

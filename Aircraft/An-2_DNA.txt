@@ -1,0 +1,31 @@
+For X-Plane v8.60Antonov An-2-Version 8.60 'mini update' by Pedro van Leeuwen
+-Version 7.63 (work in progress) and latest revisions, all by Pedro van Leeuwen
+-Version 7.30 ('quick conversion')
+-Version 5.66 and earlier.---------------------------------------This package is offered as freeware; as stated under part 2.3 of the 'X-Plane general License' (see included document)The Package and Derivatives may be redistributed for non-commercial purposes only.Any new files generated from or based on these originals -in whole or in part- will fall under the same 'copyright license' and should remain 'freeware'.Please, do always include with the package/derivatives the 'X-Plane general License' document and this 'DNA file' (updated with your XP version no. and short description of your work/adjustmets/modifications)---------------------------------------
+The v860 'mini update' is offered as  stand alone dowload.
+This is the complete model and paint files. I didn't make any adjustments to flight model, though; only some minor adjustments to the acf file for the 'visual regions' painting and renaming custom instruments (artificial horizon) as there's a diffence between v763 and v860.
+You can use the 'An-2 interior' files (360º interior views), a separate download, with this model too as they are universal.
+---------------------------------------
+
+Antonov An-2Empty weight  7600 lbsMax take off weight  12125 lbsMax landing weight  11574 lbsMax fuel  2000 lbsEngineOne Shvetsov ASh-62IR / PZL Kalisz (Radial engine, supercharged, carburated and geared) Max. power 1000 hp s/l up to 4920 ft.
+
+Setting          hp       rpm       MP    %throttle ±Max TO power    1000     2200       45      100Max continuous   947     2150       44       95   (1)
+Max continuous   897     2150       42       90Max cruise       738     2000       39       75   (2)
+Lo cruise        490     1800       32       50Eco cruise       399     1600       30(*)    40   (3)
+(*) mixture leaned to 70%Rpm table (XP setting)Engine rpm - prop rpm2200 - 15172150 - 14832000 - 13791800 - 1241
+1600 - 1103-The ‘Waterpipe’ is powered by Shvetsov ASh-62IR/TK, the turbocharged engine of the An-2ZA (Atmospheric research aircraft) producing 850 hp all the way up from S/L to 31.168 ft altitude (max. continuous at 2200 rpm and 100% throttle, other settings same as above).Speeds (kts at 5700 ft altitude and ±11600 lbs)                     An-2(w)    An-2V(f)vne                   146        146vfe                    81         81max (1)               139        138std. cruise (2)       133        131eco cruise (3)        114        112vs                     45         45vso                    39         39
+
+The An-2M cropduster's performance is comparable to the standard An-2
+(w) std. wheels, (f) floatsvso light load (2 pilots ad ±400 lbs + 1hr fuel ad 293 lbs) 33 kts!
+------------
+Appendix for v763
+An-2 (w) -at the moment- vs ±45 kts, vso ±41 kts; max. cruise (@5700 ft) 133 kts; all at ±11.600 lbs.
+Other speeds just a bit slower than v566 model.
+
+v763-II still a work in progress, but doing a bit better again...
+
+V860 is a mini update of the v763 model. Other than the real plane the An-2V model is equipped with amphibian floats (retractable landing gear) and has water tanks in the floats for use as firefighter (like the old USSR Forestry Directorate had, I believe -similar to the system on Canadian Beavers, Otters and Twin Otters)
+The Cropduster is set up to carry and drop fire retardant, as we don't have a functional cropdusting/spraying system in xp.
+
+Have fun!
+Pedro

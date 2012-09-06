@@ -1,0 +1,192 @@
+#Checklister checklist by Pierre in 2008
+#Checklist for Antonov An-2 (http://x-plane.hu/an-2)
+
+sw_checklist:PREFLIGHT INSPECTION
+sw_rcolsize:70
+sw_item:Parking brake|SET:sim/cockpit2/controls/parking_brake_ratio:1
+sw_item:All switches|OFF
+sw_item:Magneto switch|0 (OFF):sim/cockpit/engine/ingition_on[0]:0
+sw_item:Engine cowling latches|CLOSED:sim/cockpit2/engine/actuators/cowl_flap_ratio:0
+
+sw_checklist:BEFORE STARTING
+sw_rcolsize:140
+sw_item:Magneto switch|0 (OFF):sim/cockpit/engine/ingition_on[0]:0
+sw_item:Flight controls|FREE OF MOVEMENTS
+sw_item:Parking brake|SET:sim/cockpit2/controls/parking_brake_ratio:1
+sw_item:Battery switch|ON:sim/cockpit2/electrical/battery_on:1
+sw_item:Fuel gages|CHECK QTY
+sw_item:Rotating beacon|ON:sim/cockpit2/switches/beacon_on:1
+sw_item:Elevator Trim Tabs|NEUTRAL:sim/flightmodel/controls/elevator_trim:0
+sw_item:Aileron Trim Tabs|NEUTRAL:sim/flightmodel/controls/aileron_trim:0
+sw_item:Rudder Trim Tabs|NEUTRAL:sim/flightmodel/controls/rudder_trim:0
+sw_item:Cowl flaps|CHECK DEFL
+ 
+sw_checklist:ENGINE START
+sw_rcolsize:110
+sw_item:Propeller control|FORWARD:sim/multiplayer/controls/engine_prop_request[0]:>110
+sw_item:Mixture control|BACKWARD:sim/multiplayer/controls/engine_mixture_request[0]:1
+sw_item:Carburetor heater|OFF:sim/flightmodel/engine/ENGN_heat[0]:0
+sw_item:Cowl flaps|CLOSED:sim/cockpit2/engine/actuators/cowl_flap_ratio:0
+sw_itemvoid:Primer pump to cylinders if CHT < 80 :
+sw_itemvoid:2 - 6 injections MAX in the summer
+sw_itemvoid:6 - 10 injections MAX in the winter
+sw_item:Magneto switch|0 (OFF):sim/cockpit/engine/ingition_on[0]:0
+
+sw_checklist:ENGINE START
+sw_rcolsize:110
+sw_item:Make sure prop area is|CLEAR
+sw_item:Starter - keep min 15 sec|ON:sim/cockpit2/electrical/APU_starter_switch:2
+sw_item:Engine clutched|ON:sim/cockpit2/electrical/APU_starter_switch:0
+sw_item:Magneto switch|1+2 (BOTH):sim/cockpit/engine/ingition_on[0]:3
+sw_item:Throttle|700 - 800 RPM:sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec[0]:>55
+sw_item:Check oil pressure|Normal (> 3):sim/cockpit2/engine/indicators/oil_pressure_psi[0]:>220
+sw_item:Generator|ON:sim/cockpit/electrical/generator_on[0]:1
+sw_item:Inverter|ON:sim/cockpit/engine/inverter_on[0]:1
+sw_item:Avionics switch|ON:sim/cockpit2/switches/avionics_power_on:1
+
+sw_checklist:ENGINE WARM UP
+sw_rcolsize:40
+sw_itemvoid:Throttle 800 RPM until Oil Temp rises
+sw_item:Throttle 1200 RPM until CHT >100|OK:ksgy-an2/ChtTemp:>100
+sw_item:Throttle 1400 RPM until CHT >120|OK:ksgy-an2/ChtTemp:>120
+sw_itemvoid:After CHT>120 set throttle back to IDLE
+sw_item:Cross check magnetic heading. 
+sw_itemvoid:Set gyro-heading then press 
+sw_itemvoid:HDG SYNC button.
+
+
+sw_checklist:BEFORE TAXI
+sw_rcolsize:80
+sw_item:Pax and cargo doors|CLOSED:sim/flightmodel2/misc/canopy_open_ratio:0
+sw_item:ARRETIR artifical horizon|SET
+sw_item:All necessary switches|ON
+sw_item:Flaps upper and lower|OPERATIVE
+sw_item:Engine control lever positions|CORRECT
+sw_item:Indications of engine gauges|NORMAL
+sw_item:Fuel quantity|CHECKED
+sw_item:Navigation instruments|SET
+sw_item:Navigation Lights|ON:sim/cockpit2/switches/navigation_lights_on:1
+sw_item:Transponder|STDBY:sim/cockpit/radios/transponder_mode:1
+sw_item:Block time|RECORDED
+
+sw_checklist:TAXI
+sw_rcolsize:70
+sw_item:Taxi light|ON:sim/cockpit/electrical/taxi_light_on:1
+sw_item:Pitot heat if required|ON
+sw_item:All necessary switches|ON
+sw_item:Brakes|CHECKED
+
+sw_checklist:BEFORE TAKE-OFF
+sw_rcolsize:75
+sw_item:Voltage and Load meter|CHECK
+sw_item:Navigation instruments and Com's|SET
+sw_item:Carburetor heater|OFF:sim/flightmodel/engine/ENGN_heat[0]:0
+sw_item:Mixture control|BACKWARD:sim/multiplayer/controls/engine_mixture_request[0]:1
+sw_item:Altimeters|SET
+sw_item:Cross check magnetic heading. 
+sw_itemvoid:Set gyro-heading then press 
+sw_itemvoid:HDG SYNC button.
+sw_itemvoid:Elevator trim UP: 0.25-0.5 sec 
+sw_itemvoid:If heavy for 0.5-1 sec
+sw_itemvoid:Rudder trim RIGHT for 0.25-0.5 seconds
+
+sw_checklist:BEFORE TAKE-OFF
+sw_rcolsize:75
+sw_item:Flaps|TAKE-OFF
+sw_item:Flight controls|FREE
+sw_item:Artificial horizon|CHECK
+sw_item:Transponder|ON:sim/cockpit/radios/transponder_mode:2
+sw_item:Engine gauges|ALL GREEN
+sw_item:Cowl flaps|OPEN:sim/cockpit2/engine/actuators/cowl_flap_ratio:1
+sw_item:Lights|AS REQ
+sw_item:Pax seat belts|FASTENED
+sw_item:Take-off time|RECORDED
+sw_item:Parking brake|OFF:sim/flightmodel/controls/parkbrake:0
+
+sw_checklist:TAKE-OFF
+sw_rcolsize:85
+sw_item:Taxi light|OFF:sim/cockpit/electrical/taxi_light_on:0
+sw_item:Landing lights|ON:sim/cockpit/electrical/landing_lights_on:1
+sw_itemvoid:---- Without flaps ----
+sw_item:Throttle 2200 RPM Max 10 MP|:sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec[0]:>128
+sw_item:Speed up to|140 Km/h:sim/cockpit2/gauges/indicators/airspeed_kts_pilot:>74
+sw_itemvoid:---- With flaps ----
+sw_item:Vr|85-90 Km/h:sim/cockpit2/gauges/indicators/airspeed_kts_pilot:>48
+sw_item:V2|120 Km/h:sim/cockpit2/gauges/indicators/airspeed_kts_pilot:>65
+sw_item:Flaps up above 150ft|UP:sim/flightmodel2/controls/flap_handle_deploy_ratio:0
+
+sw_checklist:CLIMB
+sw_rcolsize:100
+sw_item:RPM|1800:sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec[0]:>128
+sw_item:Mixture control <90%|SET:sim/multiplayer/controls/engine_mixture_request[0]:<0.9
+sw_item:When altitude > 150 Ft|1700 RPM:sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec[0]:<130
+sw_item:Speed|140-150:sim/cockpit2/gauges/indicators/airspeed_kts_pilot:>75
+sw_item:Oil T|MAX 90:ksgy-an2/OilTemp:<90
+sw_item:CHT|< 215:ksgy-an2/ChtTemp:<215
+sw_item:Lights|CONSIDERED
+
+sw_checklist:CRUISE
+sw_rcolsize:80
+sw_itemvoid:Engine parameters:
+sw_item:RPM|1400-1600:sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec[0]:>100
+sw_item:Manifold pressure|6-8:sim/cockpit2/engine/indicators/MPR_in_hg:<33
+sw_item:CHT|150-215:ksgy-an2/ChtTemp:>150
+sw_item:Oil T|60-85:ksgy-an2/OilTemp:<85
+sw_item:Oil pressure|4-5:sim/cockpit2/engine/indicators/oil_pressure_psi[0]:>366
+sw_item:Fuel pressure|0.25-0.35:sim/cockpit2/engine/indicators/fuel_pressure_psi[0]:<33.3
+sw_item:Carb heat|AS REQ
+sw_item:Flaps|UP:sim/flightmodel2/controls/flap_handle_deploy_ratio:0
+sw_item:In every 10-15 mins cross check magnetic 
+sw_itemvoid:heading and gyro-heading adjust if
+sw_itemvoid:necessary. After adjusting press the
+sw_itemvoid:HDG SYNC button.
+
+
+sw_checklist:DESCENT
+sw_rcolsize:70
+sw_item:Maintain RPM at 180 Km/h|1800:sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec[0]:<140
+sw_item:Maintain CHT at|> 120:ksgy-an2/ChtTemp:>120
+sw_itemvoid:Carburetor heater ON If OAT<-15
+sw_item:Parking brake|OFF:sim/flightmodel/controls/parkbrake:0
+sw_item:Flaps|AS REQ
+
+sw_checklist:FINAL:
+sw_rcolsize:80
+sw_item:Throttle MP|< 5:sim/cockpit2/engine/indicators/MPR_in_hg:<23
+sw_item:Propeller|FULL PITCH:sim/multiplayer/controls/engine_prop_request[0]:>110
+sw_item:Speed|< 140:sim/cockpit2/gauges/indicators/airspeed_kts_pilot:<75
+sw_item:Flaps|15
+sw_item:Landing lights|ON:sim/cockpit/electrical/landing_lights_on:1
+
+sw_checklist:CLEAR OF RUNWAY
+sw_rcolsize:60
+sw_item:Landing lights|OFF:sim/cockpit/electrical/landing_lights_on:0
+sw_item:Taxi light|ON:sim/cockpit/electrical/taxi_light_on:1
+sw_item:Pitot heat|OFF:sim/cockpit/switches/pitot_heat_on:0
+sw_item:Flaps|UP:sim/flightmodel2/controls/flap_handle_deploy_ratio:0
+sw_item:Transponder|STDBY:sim/cockpit/radios/transponder_mode:1
+sw_item:Engine cowling latches|OPEN:sim/cockpit2/engine/actuators/cowl_flap_ratio:1
+
+sw_checklist:COOLING DOWN and SHUT DOWN
+sw_rcolsize:75
+sw_item:Parking brake|SET:sim/cockpit2/controls/parking_brake_ratio:1
+sw_item:Set throttle to|IDLE:sim/multiplayer/controls/engine_throttle_request[0]:0
+sw_item:Engine cowling latches|OPEN:sim/cockpit2/engine/actuators/cowl_flap_ratio:1
+sw_item:Taxi light|OFF:sim/cockpit/electrical/taxi_light_on:0
+sw_item:Landing lights|OFF:sim/cockpit/electrical/landing_lights_on:0
+sw_item:Navigation Lights|OFF:sim/cockpit2/switches/navigation_lights_on:0
+sw_item:Let CHT cool down < 130|OK:ksgy-an2/ChtTemp:<130
+sw_item:Avionics switch|OFF:sim/cockpit2/switches/avionics_power_on:0
+sw_item:Inverter|OFF:sim/cockpit/engine/inverter_on[0]:0
+sw_item:Generator|OFF:sim/cockpit/electrical/generator_on[0]:0
+
+
+sw_checklist:COOLING DOWN and SHUT DOWN
+sw_rcolsize:75
+sw_itemvoid:For a few seconds 1200 RPM, then 800 RPM
+sw_item:Mixture control|FORWARD:sim/multiplayer/controls/engine_mixture_request[0]:0
+sw_item:Rotating beacon|OFF:sim/cockpit2/switches/beacon_on:0
+sw_item:Cowl flaps|CLOSED:sim/cockpit2/engine/actuators/cowl_flap_ratio:0
+sw_item:Controls and ailerons|LOCKED
+sw_item:Battery switch|OFF:sim/cockpit2/electrical/battery_on:0
+sw_item:All switches|OFF

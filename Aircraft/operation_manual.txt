@@ -1,0 +1,56 @@
+Short Operation Manual
+
+
+--------------------------------------
+Starting the engine:
+--------------------------------------
+1: Battery on.
+2: Mixture full.
+3: Spin up flywheel by switching the starter switch to right.
+4: After about 15 sec, switch to left.
+5: Wait for engine to start.
+6: If failed to start, you didn't kept the switch long enough in the "right" position.
+
+
+--------------------------------------
+Engine operations:
+--------------------------------------
+After start, NEVER apply full throttle! This will cause engine damage.
+1: Slightly apply throttle to reach 1200 rpm, not more.
+2: Wait for CHT to warm up more than 100C.
+3: If reached, add more throttle, but not more than 1400 rpm.
+4: Wait for CHT to warm up above 120C. Now, the engine is ready.
+
+This plane has to be very precisely operated:
+- NEVER reach CHT above 215C
+- NEVER apply throttle below CHT 120C
+- NEVER stop engine above CHT 130C
+- NEVER reach manfold pressure: 10!
+- NEVER operate engine above M.P. 8 more than 5 minutes!
+... or, you will fail the engine.
+
+If you follow the Checklist by checklister, you can't damage the engine.
+
+
+--------------------------------------
+Navigation:
+--------------------------------------
+The gyro-compass (next to artifical horizon) and horizon depends on avionics switch and the inverters. When both switched on, wait about a min, to spin up the gyros.
+"Arretir" the artifical horizon: pull the arm on the right, wait for get in zero position. If the gyros not spinned up enough, the artifical horizon starts to move. Wait another 1 min, and repeat the "arretir".
+
+The ADF on this plane depends on gyros (avoinics, inverters has to be switched on).
+
+Synchronizong the ADF:
+1: read the magnetic heading
+2: set the readed heading on gyro compass by it's knob
+3: press the "HDG SYC" button (below artifical horizon) - the ADF card starts to move, and stops at heading you set on gyro compass.
+
+Now, the plane full ready to taxi and fly :)
+
+The GPS can be switched on, by clicking area above gyro compass.
+
+
+--------------------------------------
+Lights:
+--------------------------------------
+The cockpit lights can be switched on by clicking on the lights itself.
