@@ -1,0 +1,13 @@
+
+	unpack Xplane sdk here so the directory structure shouyld looks like
+
+	plugin/
+		src/
+			sdk/
+				SDK/
+					CHeaders/
+					Delphi/
+					Libraries/
+		an2pluginLin.cpp
+		an2pluginMac.cpp
+
